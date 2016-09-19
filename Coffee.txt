@@ -1,0 +1,21 @@
+﻿class BrazilCoffee{
+	String origin;
+	int degreeOfRoast;
+	int grade;
+	
+	BrazilCoffee(String o){
+	   origin = o;
+	}
+	
+	public void roast(){
+		System.out.println("Roasting..! "+origin);
+	}
+
+	public void brew(){
+		System.out.println("Grinding..! "+origin);
+	}
+	
+	public void brew(){
+		System.out.println("Brewing..! "+origin);
+	}
+}

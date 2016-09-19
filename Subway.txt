@@ -1,0 +1,9 @@
+﻿class Subway{
+	int line;
+   	void setLine(int l){
+		line = l;
+   	}
+   	void run(){
+        	System.out.println(line+" line runs!");
+   	}
+}
