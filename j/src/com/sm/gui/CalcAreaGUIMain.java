@@ -12,7 +12,7 @@ public class CalcAreaGUIMain extends JFrame {
     JLabel label2 = new JLabel("결과");
     radiusTf1 = new JTextField(10);
     areaTf2 = new JTextField(10);
-    JButton b1 = new JButton("");
+    JButton b1 = new JButton("계산");
     JButton b2 = new JButton("취소");
     
     panel.add(label1);
