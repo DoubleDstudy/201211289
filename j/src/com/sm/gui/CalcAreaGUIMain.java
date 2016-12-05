@@ -8,12 +8,12 @@ public class CalcAreaGUIMain extends JFrame {
   public CalcAreaGUIMain(){
     JPanel panel = new JPanel(new GridLayout(3,2));
     getContentPane().add(panel);
-    JLabel label1 = new JLabel("¹ÝÁö¸§");
-    JLabel label2 = new JLabel("°á°ú");
+    JLabel label1 = new JLabel("ë°˜ ì§€ë¦„");
+    JLabel label2 = new JLabel("ê²°ê³¼");
     radiusTf1 = new JTextField(10);
     areaTf2 = new JTextField(10);
-    JButton b1 = new JButton("°è»ê");
-    JButton b2 = new JButton("Ãë¼Ò");
+    JButton b1 = new JButton("");
+    JButton b2 = new JButton("ì·¨ì†Œ");
     
     panel.add(label1);
     panel.add(radiusTf1);
